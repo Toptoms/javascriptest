@@ -34,6 +34,8 @@ Décommenter la ligne puis recharger la page.
 ```
 
 Que se passe-t-il et pourquoi ?
+ 
+il ya un erreur survient car la variable myVariable n'existe pas 
 
 # Exo-1 - Les variables
 
