@@ -26,7 +26,7 @@ function getComputerChoice() {
         return 'rock';
     }
     else if (nombre === 1) {
-        return 'papper';
+        return 'paper';
 
     }
     else {
