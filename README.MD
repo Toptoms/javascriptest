@@ -91,7 +91,7 @@ Vous pouvez utiliser cette expression pour avoir un numéro de coureur aléatoir
 
 Vous allez programmer la logique du jeu Pierre, Feuille, Ciseau. Vous jouerez contre l'ordinateur. Pour se souvenir des [règles, cliquer ici](https://www.pierrefeuilleciseaux.fr/pierre-feuille-ciseaux-les-regles-classiques/).
 
-Notre code va se décomposer en 4 parties :
+Notre code va se décomposer en 4 parties:
 * Récupérer le choix de l'utilisateur
 * Récupérer le choix du programme.
 * Comparer les choix
