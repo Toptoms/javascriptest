@@ -1,13 +1,31 @@
 <!doctype html>
-<html  lang="fr">
-    <head>
-        <meta charset="utf-8">
-		<script src="datas.js"></script>
-		<script src="exo7.js"></script>
-	</head>
-    <body>
-		<div class="container">
-			<h1>Exercice 7</h1>
-		</div>
-	</body>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<script src="datas.js"></script>
+	<script src="exo7.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Exercice 7</h1>
+	</div>
+	<h2>fais ton choix :</h2>
+
+
+	<select id="type" name="type" size="1">
+		<option>house</option>
+		<option>car</option>
+		<option>game</option>
+		<option>playgame</option>
+		<option>show</option>
+	</select>
+	<button type="button" onclick="show()">Submit</button>
+
+	<div id="result"></div>
+
+	
+</body>
+
 </html>

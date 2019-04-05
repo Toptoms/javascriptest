@@ -2,12 +2,12 @@ var jsonDatas=[
 	{
 		"name" :"Fiat Punto",
 		"type" : "car",
-		"description" : "Je suis une voiture",
+		"description" : "Je suis une voiture", 
 		"price" : 10000,
 		"quantity" : 2
 	},{
 		"name" :"Porsche 911",
-		"type" : "car",
+		"type" : "car", 
 		"description" : "Je suis une belle voiture",
 		"price" : 80000,
 		"quantity" : 0
