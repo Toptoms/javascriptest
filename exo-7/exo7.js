@@ -38,15 +38,37 @@ var typetraduit = {
 });*/
 
 function show() {
+      //trier les joueurs par ordre alphabetique methode compressé********************************************************
+      if (document.getElementById("nom").checked == true) {
+        jsonDatas.sort(function (a, b) {
+            return a.name.localeCompare(b.name)
+        });
+    }
+    
     var sel = document.getElementById("type");
-    jsonDatas.forEach(element => {
-        if (element.type === sel.value) {
-            document.getElementById('result').innerHTML += '<br/>' + element.name+ ' '+ element.type+ ' '+ element. description+ ' '+ element. price+ ' '+ element. quantity;
-        }
 
-    });
+    if (document.getElementById("stock").checked == true) {
+        jsonDatas.forEach(element => {
 
+            if (element.type === sel.value) {
+                document.getElementById('result').innerHTML += '<br/>' + element.name + ' ' + element.type + ' ' + element.description + ' ' + element.price + ' ' + element.quantity;
+            };
+        });
+    }
+
+    else {
+        jsonDatas.forEach(element => {
+
+            if (element.type === sel.value && element.quantity > 0) {
+                document.getElementById('result').innerHTML += '<br/>' + element.name + ' ' + element.type + ' ' + element.description + ' ' + element.price + ' ' + element.quantity;
+            }
+        });
+
+    }
+  
 }
 
 
+
+console.log(sel);
 console.log(jsonDatas);

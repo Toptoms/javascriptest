@@ -13,19 +13,37 @@
 	</div>
 	<h2>fais ton choix :</h2>
 
+	<p>Decoche si tu souhaites ne pas voir les produits en ruptures de stock:</p>
+	<div>
+		<label for="stock">produits en ruptures</label>
+		<input type="checkbox" id="stock" name="stock" checked></br></br>
 
-	<select id="type" name="type" size="1">
-		<option>house</option>
-		<option>car</option>
-		<option>game</option>
-		<option>playgame</option>
-		<option>show</option>
-	</select>
-	<button type="button" onclick="show()">Submit</button>
+		<label for="stock">trier par prix</label>
+		<input type="checkbox" id="prix" name="prix">
+
+		<label for="stock">trier par nom</label>
+		<input type="checkbox" id="nom" name="nom">
+
+		<label for="stock">par ordre decroissant</label>
+		<input type="checkbox" id="desc" name="desc">
+
+
+
+		<select id="type" name="type" size="1">
+			<option>house</option>
+			<option>car</option>
+			<option>game</option>
+			<option>videoGame</option>
+			<option>show</option>
+		</select>
+		<button type="button" onclick="show()">Submit</button>
+
+	</div>
+
 
 	<div id="result"></div>
 
-	
+
 </body>
 
 </html>
